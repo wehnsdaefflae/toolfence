@@ -1,0 +1,16 @@
+[project]
+name = "toolfence"
+version = "0.0.1"
+description = "Werkzeugaufrufe von KI-Agenten gegen selbstgeschriebene Regeln pruefen, bevor sie ausgefuehrt werden - mit faelschungssicherem Protokoll."
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "Apache-2.0" }
+authors = [{ name = "Mark Wernsdorfer" }]
+dependencies = []
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
